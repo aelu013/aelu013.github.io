@@ -171,11 +171,8 @@ HEADER
 {
     padding-top: 140px;
     color: #fff;
-    padding-left: 150px;
-    padding-right: 150px;
-    width: %60;
-    height:300px;
-    vertical-align: middle;
+    margin-left: 18%;
+    margin-right: 18%;
 }
 .bnr-title, .bnr-sub-title
 {
@@ -190,6 +187,7 @@ h1.bnr-title
 .bnr-para
 {
     font-weight: 300;
+    font-size: 15px;
     padding: center;
     font-family: 'Open Sans', monospace;
 }

@@ -33,8 +33,14 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
 }
+hr{
+    width: 50%;
+}
 br{
     padding: 10px 0px;
+}
+a{
+    padding: 0px 6px;
 }
 .section-padding
 {
@@ -112,6 +118,14 @@ HEADER
     transition: all 0.3s;
 }
 
+ul.social-icon {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin-top: 33%;
+}
 .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover
 {
     color: #002F2F;
@@ -169,7 +183,7 @@ HEADER
 }
 .banner-info
 {
-    padding-top: 140px;
+    padding-top: 50px;
     color: #fff;
     margin-left: 18%;
     margin-right: 18%;
@@ -409,7 +423,7 @@ TESTIMONIAL
 ***********************************/
 #testimonial
 {
-    background: url('../img/bg.jpg') no-repeat;
+    background: url('../img/pexels-photo-325185.jpeg') no-repeat;
     background-size: cover;
     min-height: 390px;
 }
